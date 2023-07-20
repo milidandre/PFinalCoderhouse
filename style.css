@@ -321,6 +321,7 @@ footer  h3{
     display: flex;
     justify-content: left;
     margin-left: 150px;
+    margin-right: 70px;
     margin-bottom: 10px;
     font-size: 1.1em;
 
@@ -330,7 +331,7 @@ footer  h3{
     display: flex;
     justify-content: left;
     margin-left: 150px;
-    margin-right: 50px;
+    margin-right: 70px;
     margin-bottom: 10px;
     font-size: 1.1em;
 }
@@ -339,7 +340,7 @@ footer  h3{
     display: flex;
     justify-content: left;
     margin-left: 150px;
-    margin-right: 50px;
+    margin-right: 70px;
     margin-bottom: 10px;
     font-size: 1.1em;
 }
@@ -347,7 +348,7 @@ footer  h3{
     display: flex;
     justify-content: left;
     margin-left: 150px;
-    margin-right: 50px;
+    margin-right: 70px;
     font-size: 1.1em;
   
 }
