@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="headernav">
+        <header>
+               <div class="contenedor-general">
+                      <div class="contenedor-logo">
+                             <img src="../IMAGENES/logo.png" alt="logo" class="logo">
+                      </div>
+                      <div class="contenedor-buscador">
+                             <input type="text" placeholder="  ¿Qué estas buscando?" class="buscar">
+                             <img src="../IMAGENES/lupa.png" alt="lupa" class="lupa">
+                      </div>
+                      <div class="contenedor-sesion">
+                             <img src="../IMAGENES/INICIAR SESION1.png" alt="inicio Sesion" class="inicio">
+                             <img src="../IMAGENES/Carrito.png" alt="Carrito" class="chango">
+
+                      </div>
+               </div>
+        </header>
+
+        <section class="navegador">
+               <nav class="navbar">
+                      <ul class="listamenu">
+                             <li><a href="index.html">Inicio</a></li>
+                             <li><a href="Quienes_somos.html">Quienes Somos</a></li>
+                             <li><a href="Juguetes_didacticos.html">Juguetes didácticos</a></li>
+                             <li><a href="Arte_manualidades.html">Arte y Manualidades</a></li>
+                             <li><a href="Contacto.html">Contacto</a></li>
+                      </ul>
+               </nav>
+        </section>
+ </div>
+        <form action="form.php" method="POST">
+            <h2>Deje su mensaje</h2>
+            <div class="forname">
+                <div class="forname1">
+                    <label>Nombre y Apellido</label>
+                </div>
+                <div class="forname2">
+                    <input type="text" name="nombre" id="nombre" placeholder=" Juan Perez"
+                        style="width: 350px;height: 30px;">
+                </div>
+            </div>
+            <div class="formmail">
+                <div class="formail1">
+                    <label>Mail</label>
+                </div>
+                <div class="formail2">
+                    <input type="email" name="email" id="email" placeholder=" contacto@contacto.com"
+                        style="width: 350px;height: 30px;">
+                </div>
+            </div>
+            <div class="formcoment">
+                <div class="formcoment1">
+                    <label>Comentario</label>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="48" rows="10" placeholder=" Comentario"></textarea>
+                </div>
+            </div>
+            <div class="formbutton">
+                <input type="submit" value="Enviar" style="width: 70px;">
+            </div>
+        </form>
+</body>
+
+</html>
