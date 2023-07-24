@@ -22,13 +22,11 @@
     justify-content: center;
     background-color: #99cae9;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 
 .logo{
-    height: 80px;
-    
+    height: 80px;  
 }
 
 .contenedor-buscador{
@@ -52,13 +50,11 @@ img.lupa{
     border-style: hidden ;
     font-size: 0.9em;
     font-family: "roboto-general";
- 
  }
 
  .inicio{
     height: 30px;
-    margin-top: 2px;
-     
+    margin-top: 2px;  
 }
 
 .chango{
@@ -67,7 +63,7 @@ img.lupa{
     margin-left: 5px;
 }
 
-/* Nav*/
+/* Navegador*/
 
 .navbar{
     justify-content: center;
@@ -80,8 +76,7 @@ img.lupa{
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
-    padding: 20px 20px;
-      
+    padding: 20px 20px;    
 }
 
 
@@ -91,8 +86,7 @@ li{
 
 
 li:hover{
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 li a{
@@ -115,8 +109,7 @@ li a{
     height: 500px;
 }
 
-.imagen
-{
+.imagen{
     height: 500px;
     width: 100%;
 }
@@ -141,20 +134,18 @@ li a{
    color:rgba(0, 0, 0, 0.603);
    font-size: 3em;
 }
+
 .grid-section-categorias img{
-    
     width: 450px;
     height: 450px; 
     margin-top: 20px;
 }
 
-
 .grid-section-categorias{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    justify-items: center;
-     
+    justify-items: center; 
 }
 
 
@@ -167,7 +158,7 @@ footer  h3{
 
 .cont-contacto{
     margin-left: 5%;
-  }
+}
 
 .mail{
     display: flex;
@@ -200,9 +191,9 @@ footer  h3{
 }
 
 .susc{
-    margin-top: 2%;
-    
+    margin-top: 2%; 
 }
+
 .susc input{
     display: block;
     width: 80%;
@@ -218,22 +209,22 @@ footer  h3{
 .cont-ubicacion{
     margin-left: 5%;
 }
+
 .cont-ubicacion iframe{
     width: 300px;
     height: 300px;
 }
-
 
 .cont-copy{
     display: flex;
     justify-content: center;
     font-size: 0.8em;
     margin-left: 5%;
-    
 }
+
 .copyright{
     margin-left: 100px;  
-  }
+}
 
 .grid-contenedor-footer{
     background-color: #99cae9;
@@ -249,10 +240,11 @@ footer  h3{
 .cont-contacto{
     grid-area: grid1;
 }
+
 .cont-newsletter{
     grid-area: grid2;
-
 }
+
 .cont-ubiacion{
     grid-area: grid3;
 }
@@ -273,6 +265,7 @@ footer  h3{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 70px;
+    margin-right: 140px;
 }
 
 .quienessomos h4{
@@ -282,7 +275,7 @@ footer  h3{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 70px;
-
+    margin-right: 140px;
 }
 
 .p1{
@@ -292,7 +285,7 @@ footer  h3{
     margin-right: 70px;
     margin-bottom: 10px;
     font-size: 1.1em;
-
+    margin-right: 140px;
 }
 
 .p2{
@@ -302,6 +295,7 @@ footer  h3{
     margin-right: 70px;
     margin-bottom: 10px;
     font-size: 1.1em;
+    margin-right: 140px;
 }
 
 .p3{
@@ -311,14 +305,16 @@ footer  h3{
     margin-right: 70px;
     margin-bottom: 10px;
     font-size: 1.1em;
+    margin-right: 140px;
 }
+
 .p4{
     display: flex;
     justify-content: left;
     margin-left: 70px;
     margin-right: 70px;
     font-size: 1.1em;
-  
+    margin-right: 140px;  
 }
 
 
@@ -336,18 +332,17 @@ form h2{
 form div{
     font-size: 1.1em;
 }
+
 .forname div{
    display: flex;
    justify-content: center;
 }
 
 .forname1{
-
     margin-bottom: 5px;
 }
 
 .forname2{
-
     margin-bottom: 10px;
 }
 
@@ -367,7 +362,6 @@ form div{
 .formcoment div{
     display: flex;
     justify-content: center;
-
 }
 
 .formcoment1{
@@ -379,14 +373,12 @@ form div{
     justify-content: center;
     margin-top: 20px;
     height: 30px;
-   
 }
 
 /*PAGINA ARTE Y MANUALIDADES*/
 
 
 .grid-contenedor-arte {
-    
     display: grid;
     grid-template-rows:     1/2fr 1/2fr 1/2fr;
     grid-template-columns:  1/2fr 1/2fr 1/2fr ;
@@ -395,7 +387,6 @@ form div{
     "imga imga imga"
     "imga imga imga "
     "imga imga imga";
- 
 }
 
 .imga{
@@ -410,7 +401,6 @@ form div{
 
 
 .grid-contenedor-didacticos{
-
     display: grid;
     grid-template-rows:   1fr 1fr 1fr;
     grid-template-columns:   1fr 1fr 1fr ;
@@ -418,11 +408,12 @@ form div{
 }
 
 .grid-contenedor-didacticos img{
-
     border: 2px solid #3e689948;
     border-radius: 10%;
     margin-top: 5px;
 }
+
+/*Media Query - responsive*/
 
 @media (min-width:300px) and (max-width:576px){
     .grid-contenedor-didacticos{
@@ -437,8 +428,7 @@ form div{
         display: grid;
         grid-template-columns: 1/2fr;
         grid-template-areas: 
-        "imga"
-        ;
+        "imga"   ;
     }
     .grid-contenedor-footer{
         display: grid;
@@ -458,20 +448,19 @@ form div{
         margin-right: 50px;
     }
     .sectioncarrusel{
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .cont-ubicacion iframe{
         width: 70%;
         height: 70%;
     }
     .cont-contacto{
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .cont-ubicacion{
         margin-top: 5%;
         margin-bottom: 5%;
     }
-
 }
 
 @media (min-width:577px) and (max-width:1023px){
