@@ -66,6 +66,9 @@ img.lupa{
 
 /* Navegador*/
 
+ul .nav{
+    background-color: none;
+}
 
 li .nav-link{
  color: #3e6899;
@@ -75,7 +78,16 @@ li .nav-link{
  margin-top: 20px;
 }
 
+.navbar{
+background-color: #99cae9;
+}
 
+ .navbar-nav{
+    margin-left: 150px;
+}
+.dropdown-menu{
+    color: #3e6899;
+}
 
 /* Carrusel*/ 
 
@@ -292,7 +304,8 @@ footer  h3{
     margin-left: 70px;
     margin-right: 70px;
     font-size: 1.1em;
-    margin-right: 140px;  
+    margin-right: 140px; 
+    margin-bottom: 80px; 
 }
 
 
@@ -436,7 +449,15 @@ form div{
         margin-top: 5%;
         margin-bottom: 5%;
     }
+    li .nav-link{
+        margin-bottom: 5px;
+        margin-top: 10px;
+       }
 
+       .navbar-nav{
+        margin-left: 5px;
+    }
+    }
 
 @media (min-width:577px) and (max-width:1023px){
     .grid-contenedor-didacticos{
@@ -462,8 +483,12 @@ form div{
         "grid3 grid4";
         background-color:#3e68999f;
 }
- .contenedor-general{
+  .contenedor-general{
     background-color:#3e68999f ;
  }
-}
+  
+ .navbar-nav{
+    margin-left: 5px
 
+}
+}
