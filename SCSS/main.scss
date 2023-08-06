@@ -1,0 +1,21 @@
+
+ //Reset
+@import "./vars";
+@import "./reset";
+@import "./mixins.scss";
+
+
+
+//Páginas
+@import "./headerindex";
+@import "./headerpaginas";
+@import "./footer";
+@import "./quienessomos";
+@import "./contacto";
+@import "./arteymanualidades";
+@import "./didacticos";
+
+
+//Media queries
+@import "./mediaquery";
+

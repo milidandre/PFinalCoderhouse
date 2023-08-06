@@ -1,0 +1,24 @@
+//colores
+
+$azul:#3e6899;
+$celeste: #99cae9;
+$gris:rgba(0, 0, 0, 0.603);
+$azulclaro:#3e689948;
+
+//Tipografía
+
+$font: "roboto-general";
+
+//Bordes
+$bordeimagenes: 2px solid #3e689948;
+
+//Extend
+%config{
+    display: flex;
+    justify-content: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    margin-right: 140px;
+
+}

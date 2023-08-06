@@ -1,0 +1,25 @@
+@mixin display-justicen {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin w-h ($w,$h){
+    width: $w;
+    height: $h;
+}
+
+@mixin h($h){
+    height: $h;
+}
+
+@mixin marg-w-h{
+    margin-right: 5px;
+    width: 20px;
+    height: 30px;
+}
+
+@mixin grid-just {
+    display: grid;
+    justify-items: center;
+}
+

@@ -1,0 +1,20 @@
+/*PAGINA ARTE Y MANUALIDADES*/
+
+.grid-contenedor-arte {
+    @include grid-just;
+    grid-template-rows:     1/2fr 1/2fr 1/2fr;
+    grid-template-columns:  1/2fr 1/2fr 1/2fr ;
+    grid-template-areas: 
+    "imga imga imga"
+    "imga imga imga "
+    "imga imga imga";
+}
+
+
+.imga{
+    border: $bordeimagenes;
+    border-radius: 10%;
+    margin-top: 5px;
+}
+ 
+

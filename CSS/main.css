@@ -1,0 +1,434 @@
+@charset "UTF-8";
+.p3, .p2, .p1 {
+  display: flex;
+  justify-content: left;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  margin-right: 140px;
+}
+
+@font-face {
+  font-family: "roboto-general";
+  src: url("../Fuente/Roboto-Regular.ttf");
+}
+* {
+  font-family: "roboto-general";
+  color: #3e6899;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+ul .nav {
+  background-color: none;
+}
+
+li .nav-link {
+  color: #3e6899;
+  font-size: 1.1em;
+  font-family: "roboto-general";
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.navbar {
+  background-color: #99cae9;
+}
+
+.navbar-nav {
+  margin-left: 150px;
+}
+
+/* Carrusel*/
+.flecha {
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.bat {
+  height: 500px;
+}
+
+.imagen {
+  width: 100%;
+  height: 500px;
+}
+
+/* Section Categorias */
+.categoria_manualidades p {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 75px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 3em;
+}
+
+.categoria-didacticos p {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 130px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 3em;
+}
+
+.grid-section-categorias img {
+  width: 450px;
+  height: 450px;
+  margin-top: 20px;
+}
+
+.grid-section-categorias {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* RESTO PÁGINAS */
+/* Header */
+.contenedor-general {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  background-color: #99cae9;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 80px;
+}
+
+.contenedor-buscador {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+img.lupa {
+  height: 23px;
+  margin-left: 4px;
+  margin-top: 8px;
+}
+
+.buscar {
+  width: 55%;
+  height: 40px;
+  border-radius: 10px;
+  border-style: hidden;
+  font-size: 0.9em;
+  font-family: "roboto-general";
+}
+
+.inicio {
+  height: 30px;
+  margin-top: 2px;
+}
+
+.chango {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+/* FOOTER*/
+footer h3 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+.cont-contacto {
+  margin-left: 5%;
+}
+
+.mail {
+  display: flex;
+}
+
+.mail img {
+  margin-right: 5px;
+  width: 20px;
+  height: 30px;
+}
+
+.phone {
+  display: flex;
+}
+
+.phone img {
+  margin-right: 5px;
+  width: 20px;
+  height: 30px;
+}
+
+.cont-newsletter {
+  margin-left: 5%;
+}
+
+.name input {
+  display: block;
+  width: 80%;
+  margin-top: 1%;
+}
+
+.susc {
+  margin-top: 2%;
+}
+
+.susc input {
+  display: block;
+  width: 80%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.susc button {
+  width: 30%;
+  margin-left: 25%;
+}
+
+.cont-ubicacion {
+  margin-left: 5%;
+}
+
+.cont-ubicacion iframe {
+  width: 300px;
+  height: 300px;
+}
+
+.cont-copy {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  margin-left: 5%;
+}
+
+.copyright {
+  margin-left: 100px;
+}
+
+.grid-contenedor-footer {
+  background-color: #99cae9;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 30px;
+  margin-top: 15px;
+  grid-template-areas: "grid1 grid2 grid3" "grid4 grid4 grid4";
+}
+
+.cont-contacto {
+  grid-area: grid1;
+}
+
+.cont-newsletter {
+  grid-area: grid2;
+}
+
+.cont-ubiacion {
+  grid-area: grid3;
+}
+
+.cont-copy {
+  grid-area: grid4;
+}
+
+.quienessomos h3 {
+  display: flex;
+  justify-content: left;
+  font-style: italic;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 140px;
+}
+
+.quienessomos h4 {
+  display: flex;
+  justify-content: left;
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 140px;
+}
+
+.p4 {
+  display: flex;
+  justify-content: left;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 1.1em;
+  margin-right: 140px;
+  margin-bottom: 80px;
+}
+
+/* PÁGINA CONTACTO  */
+form h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+form div {
+  font-size: 1.1em;
+}
+
+.forname div {
+  display: flex;
+  justify-content: center;
+}
+
+.forname1 {
+  margin-bottom: 5px;
+}
+
+.forname2 {
+  margin-bottom: 10px;
+}
+
+.formmail div {
+  display: flex;
+  justify-content: center;
+}
+
+.formail1 {
+  margin-bottom: 5px;
+}
+
+.formail2 {
+  margin-bottom: 10px;
+}
+
+.formcoment div {
+  display: flex;
+  justify-content: center;
+}
+
+.formcoment1 {
+  margin-bottom: 5px;
+}
+
+.formbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 30px;
+}
+
+/*PAGINA ARTE Y MANUALIDADES*/
+.grid-contenedor-arte {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1/2fr 1/2fr 1/2fr;
+  grid-template-columns: 1/2fr 1/2fr 1/2fr;
+  grid-template-areas: "imga imga imga" "imga imga imga " "imga imga imga";
+}
+
+.imga {
+  border: 2px solid rgba(62, 104, 153, 0.2823529412);
+  border-radius: 10%;
+  margin-top: 5px;
+}
+
+/*PAGINA DIDACTICOS*/
+.grid-contenedor-didacticos {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-contenedor-didacticos img {
+  border: 2px solid rgba(62, 104, 153, 0.2823529412);
+  border-radius: 10%;
+  margin-top: 5px;
+}
+
+/*Media Query - responsive*/
+@media (min-width: 300px) and (max-width: 576px) {
+  .grid-contenedor-didacticos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-section-categorias {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-contenedor-arte {
+    display: grid;
+    grid-template-columns: 1/2fr;
+    grid-template-areas: "imga";
+  }
+  .grid-contenedor-footer {
+    display: grid;
+    font-size: 0.9em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "grid1" "grid2" "grid3" "grid4";
+  }
+  .buscar {
+    font-size: 0.7em;
+  }
+  .quienessomos h4 {
+    margin-right: 50px;
+  }
+  .sectioncarrusel {
+    margin-top: 20px;
+  }
+  .cont-ubicacion iframe {
+    width: 70%;
+    height: 70%;
+  }
+  .cont-contacto {
+    margin-top: 10%;
+  }
+  .cont-ubicacion {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  li .nav-link {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    margin-left: 5px;
+  }
+}
+@media (min-width: 577px) and (max-width: 1023px) {
+  .grid-contenedor-didacticos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-section-categorias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-contenedor-arte {
+    display: grid;
+    grid-template-columns: 1/2fr 1/2fr;
+    grid-template-areas: "imga imga";
+  }
+  .grid-contenedor-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "grid1 grid2" "grid3 grid4";
+    background-color: rgba(62, 104, 153, 0.6235294118);
+  }
+  .contenedor-general {
+    background-color: rgba(62, 104, 153, 0.6235294118);
+  }
+  .navbar-nav {
+    margin-left: 5px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

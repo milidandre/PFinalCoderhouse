@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"roboto-general" ;
+    src: url("../Fuente/Roboto-Regular.ttf");
+}
+
+
+*{
+    font-family: $font;
+    color: $azul;
+    margin: 0;
+    padding: 0;  
+}

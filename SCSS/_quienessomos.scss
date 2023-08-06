@@ -1,0 +1,43 @@
+.quienessomos h3{
+    display: flex;
+    justify-content: left;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 140px;
+}
+
+.quienessomos h4{
+    display: flex;
+    justify-content: left;
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 140px;
+}
+
+.p1{
+    @extend %config;
+}
+
+.p2{
+    @extend %config;
+}
+
+.p3{
+    @extend %config;
+}
+
+.p4{
+    display: flex;
+    justify-content: left;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1.1em;
+    margin-right: 140px; 
+    margin-bottom: 80px; 
+}
+

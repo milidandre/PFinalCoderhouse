@@ -1,0 +1,90 @@
+/*Media Query - responsive*/
+
+@media (min-width:300px) and (max-width:576px){
+    .grid-contenedor-didacticos{
+        display: grid;
+        grid-template-columns: 1fr ; 
+    }
+    .grid-section-categorias{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .grid-contenedor-arte{
+        display: grid;
+        grid-template-columns: 1/2fr;
+        grid-template-areas: 
+        "imga"   ;
+    }
+    .grid-contenedor-footer{
+        display: grid;
+        font-size: 0.9em;
+        grid-template-columns:1fr ;
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+        "grid1"
+        "grid2"
+        "grid3"
+        "grid4";
+    }
+    .buscar{ 
+        font-size: 0.7em; 
+    }
+    .quienessomos h4{
+        margin-right: 50px;
+    }
+    .sectioncarrusel{
+        margin-top: 20px;
+    }
+    .cont-ubicacion iframe{
+        @include w-h (70%,70%);
+    }
+    .cont-contacto{
+        margin-top: 10%;
+    }
+    .cont-ubicacion{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    li .nav-link{
+        margin-bottom: 5px;
+        margin-top: 10px;
+       }
+
+       .navbar-nav{
+        margin-left: 5px;
+    }
+    }
+
+@media (min-width:577px) and (max-width:1023px){
+    .grid-contenedor-didacticos{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .grid-section-categorias{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .grid-contenedor-arte{
+        display: grid;
+        grid-template-columns: 1/2fr 1/2fr ;
+        grid-template-areas: 
+        "imga imga" ;
+    }
+    .grid-contenedor-footer{
+        display: grid;
+        grid-template-columns:1fr  1fr;
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+        "grid1 grid2"
+        "grid3 grid4";
+        background-color:#3e68999f;
+}
+  .contenedor-general{
+    background-color:#3e68999f ;
+ }
+  
+ .navbar-nav{
+    margin-left: 5px
+
+}
+}
