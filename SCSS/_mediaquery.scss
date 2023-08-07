@@ -52,12 +52,12 @@
             font-size: 0.8em;
             margin-left: 10%;
             
+        }
+   }
+     .quienessomos {
+         margin-bottom: 70px;
+         margin-right: 10px;
     }
-}
-.quienessomos {
-    margin-bottom: 70px;
-    margin-right: 10px;
-}
 }
 
 
@@ -84,7 +84,7 @@
         grid-template-areas: 
         "grid1 grid2"
         "grid3 grid4";
-        background-color: $azulclaro;
+        background: linear-gradient($azulclaro,$celeste,$azulclaro);
             
         .cont-copy{
             margin-left: 1%;
@@ -103,13 +103,13 @@
 }
 
        header nav{
-        background-color: $azulclaro;
+        background: linear-gradient($azulclaro,$azulclaro,$celeste);
            ul.navbar-nav { 
              margin-left: 50px;
             }
         }
   
         .contenedor-general{
-            background-color: $azulclaro;
+            background: linear-gradient($azulclaro,$azulclaro,$celeste);
          }
         }

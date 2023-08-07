@@ -25,12 +25,20 @@ div.grid-contenedor-footer{
             img{
                 @include marg-w-h
              }
+             img:hover{
+                transform: rotate(25deg);
+                transition-duration: 0.5s;
+             }
         }
         .phone{
             display: flex;
              img{  
                 @include marg-w-h
             }
+            img:hover{
+                transform: rotate(25deg);
+                transition-duration: 0.5s;
+             }
         }
     }
 

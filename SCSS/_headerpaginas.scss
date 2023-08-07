@@ -13,8 +13,7 @@
     .contenedor-logo{
         img{
             @include h (80px);
-        }
-        
+        }  
     }
 
     .contenedor-buscador{
@@ -32,7 +31,7 @@
             @include h (23px);
             margin-left: 4px;
             margin-top: 8px;  
-            }
+            } 
     }
     
     .contenedor-sesion{
@@ -40,10 +39,19 @@
             @include h (30px);
             margin-top: 2px;  
         }
+        img.inicio:hover{
+                transform: scale(1.3);
+                transition-duration: 2s;
+            }
+        
         
         img.chango{
             @include w-h (30px,30px);
             margin-left: 5px;
+        }
+        img.chango:hover{
+            transform: scale(1.3);
+            transition-duration: 2s;
         }
 
     }
