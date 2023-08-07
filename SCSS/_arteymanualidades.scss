@@ -8,13 +8,14 @@
     "imga imga imga"
     "imga imga imga "
     "imga imga imga";
+    
+    img{
+        border: $bordeimagenes;
+        border-radius: 10%;
+        margin-top: 5px;
+    }     
 }
 
 
-.imga{
-    border: $bordeimagenes;
-    border-radius: 10%;
-    margin-top: 5px;
-}
  
 

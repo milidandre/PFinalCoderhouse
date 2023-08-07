@@ -4,11 +4,11 @@
     @include grid-just;
     grid-template-rows:   1fr 1fr 1fr;
     grid-template-columns:   1fr 1fr 1fr ;
-   
-}
 
-.grid-contenedor-didacticos img{
-    border: $bordeimagenes;
-    border-radius: 10%;
-    margin-top: 5px;
+    img{
+        border: $bordeimagenes;
+        border-radius: 10%;
+        margin-top: 5px;
+    }
+   
 }

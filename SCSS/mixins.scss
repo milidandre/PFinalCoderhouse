@@ -23,3 +23,17 @@
     justify-items: center;
 }
 
+@mixin dgrid-templ{
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+@mixin margt-b ($t,$b){
+    margin-top:$t ;
+    margin-bottom:$b ;
+}
+
+@mixin margl-r ($l,$r){
+    margin-left:$l ;
+    margin-right:$r ;
+}

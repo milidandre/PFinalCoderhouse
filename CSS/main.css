@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.p3, .p2, .p1 {
+.quienessomos p {
   display: flex;
   justify-content: left;
   margin-left: 70px;
@@ -20,42 +20,52 @@
 }
 
 /* Header */
-ul .nav {
-  background-color: none;
-}
-
-li .nav-link {
-  color: #3e6899;
-  font-size: 1.1em;
-  font-family: "roboto-general";
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.navbar {
+header nav {
   background-color: #99cae9;
 }
-
-.navbar-nav {
+header nav img {
+  height: 80px;
+  margin-left: 10px;
+}
+header nav ul.navbar-nav {
   margin-left: 150px;
+}
+header nav li .nav-link {
+  color: #3e6899;
+  font-size: 1.2em;
+  font-family: "roboto-general";
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header nav li .dropdown-menu {
+  font-size: 1.2em;
+}
+header nav li .dropdown-item {
+  color: #3e6899;
 }
 
 /* Carrusel*/
-.flecha {
+.sectioncarrusel img {
+  width: 100%;
+  height: 550px;
+}
+.sectioncarrusel button span {
   background-color: rgba(0, 0, 0, 0.603);
 }
 
-.bat {
-  height: 500px;
-}
-
-.imagen {
-  width: 100%;
-  height: 500px;
-}
-
 /* Section Categorias */
-.categoria_manualidades p {
+main.grid-section-categorias {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+main.grid-section-categorias img {
+  width: 450px;
+  height: 450px;
+  margin-top: 20px;
+}
+main.grid-section-categorias p {
   position: absolute;
   margin-top: 200px;
   margin-left: 75px;
@@ -63,27 +73,8 @@ li .nav-link {
   color: rgba(0, 0, 0, 0.603);
   font-size: 3em;
 }
-
-.categoria-didacticos p {
-  position: absolute;
-  margin-top: 200px;
+main.grid-section-categorias .categoria-didacticos p {
   margin-left: 130px;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.603);
-  font-size: 3em;
-}
-
-.grid-section-categorias img {
-  width: 450px;
-  height: 450px;
-  margin-top: 20px;
-}
-
-.grid-section-categorias {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
 }
 
 /* RESTO PÁGINAS */
@@ -98,25 +89,16 @@ li .nav-link {
   align-items: center;
   justify-content: space-around;
 }
-
-.logo {
+.contenedor-general .contenedor-logo img {
   height: 80px;
 }
-
-.contenedor-buscador {
+.contenedor-general .contenedor-buscador {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 60%;
 }
-
-img.lupa {
-  height: 23px;
-  margin-left: 4px;
-  margin-top: 8px;
-}
-
-.buscar {
+.contenedor-general .contenedor-buscador input {
   width: 55%;
   height: 40px;
   border-radius: 10px;
@@ -124,119 +106,110 @@ img.lupa {
   font-size: 0.9em;
   font-family: "roboto-general";
 }
-
-.inicio {
+.contenedor-general .contenedor-buscador img {
+  height: 23px;
+  margin-left: 4px;
+  margin-top: 8px;
+}
+.contenedor-general .contenedor-sesion img.inicio {
   height: 30px;
   margin-top: 2px;
 }
-
-.chango {
+.contenedor-general .contenedor-sesion img.chango {
   width: 30px;
   height: 30px;
   margin-left: 5px;
 }
 
+ul.nav .nav-item {
+  font-family: "roboto-general";
+  font-size: 1.2em;
+}
+ul.nav .nav-link {
+  color: #3e6899;
+}
+
 /* FOOTER*/
-footer h3 {
+div.grid-contenedor-footer {
+  background-color: #99cae9;
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr;
+  grid-template-rows: 1fr 30px;
+  margin-top: 15px;
+  grid-template-areas: "grid1 grid2 grid3" "grid4 grid4 grid4";
+}
+div.grid-contenedor-footer h3 {
   font-size: 1.3em;
   text-decoration: underline;
 }
-
-.cont-contacto {
-  margin-left: 5%;
+div.grid-contenedor-footer div.cont-contacto {
+  margin-left: 15%;
+  margin-top: 5%;
+  grid-area: grid1;
 }
-
-.mail {
+div.grid-contenedor-footer div.cont-contacto .mail {
   display: flex;
 }
-
-.mail img {
+div.grid-contenedor-footer div.cont-contacto .mail img {
   margin-right: 5px;
   width: 20px;
   height: 30px;
 }
-
-.phone {
+div.grid-contenedor-footer div.cont-contacto .phone {
   display: flex;
 }
-
-.phone img {
+div.grid-contenedor-footer div.cont-contacto .phone img {
   margin-right: 5px;
   width: 20px;
   height: 30px;
 }
-
-.cont-newsletter {
-  margin-left: 5%;
+div.grid-contenedor-footer .cont-newsletter {
+  margin-left: 10%;
+  margin-top: 5%;
+  grid-area: grid2;
 }
-
-.name input {
+div.grid-contenedor-footer .cont-newsletter .name input {
   display: block;
   width: 80%;
   margin-top: 1%;
 }
-
-.susc {
+div.grid-contenedor-footer .cont-newsletter .susc {
   margin-top: 2%;
 }
-
-.susc input {
+div.grid-contenedor-footer .cont-newsletter .susc input {
   display: block;
   width: 80%;
   margin-top: 1%;
   margin-bottom: 2%;
 }
-
-.susc button {
+div.grid-contenedor-footer .cont-newsletter .susc button {
   width: 30%;
   margin-left: 25%;
 }
-
-.cont-ubicacion {
-  margin-left: 5%;
+div.grid-contenedor-footer .cont-ubicacion {
+  margin-left: 20%;
+  margin-top: 5%;
+  grid-area: grid3;
 }
-
-.cont-ubicacion iframe {
+div.grid-contenedor-footer .cont-ubicacion iframe {
   width: 300px;
   height: 300px;
 }
-
-.cont-copy {
+div.grid-contenedor-footer .cont-copy {
   display: flex;
   justify-content: center;
   font-size: 0.8em;
   margin-left: 5%;
+  grid-area: grid4;
 }
-
-.copyright {
+div.grid-contenedor-footer .cont-copy p.copyright {
   margin-left: 100px;
 }
 
-.grid-contenedor-footer {
-  background-color: #99cae9;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 30px;
-  margin-top: 15px;
-  grid-template-areas: "grid1 grid2 grid3" "grid4 grid4 grid4";
+.quienessomos {
+  margin-bottom: 70px;
+  margin-right: 140px;
 }
-
-.cont-contacto {
-  grid-area: grid1;
-}
-
-.cont-newsletter {
-  grid-area: grid2;
-}
-
-.cont-ubiacion {
-  grid-area: grid3;
-}
-
-.cont-copy {
-  grid-area: grid4;
-}
-
 .quienessomos h3 {
   display: flex;
   justify-content: left;
@@ -247,7 +220,6 @@ footer h3 {
   margin-left: 70px;
   margin-right: 140px;
 }
-
 .quienessomos h4 {
   display: flex;
   justify-content: left;
@@ -257,66 +229,46 @@ footer h3 {
   margin-left: 70px;
   margin-right: 140px;
 }
-
-.p4 {
-  display: flex;
-  justify-content: left;
-  margin-left: 70px;
-  margin-right: 70px;
-  font-size: 1.1em;
-  margin-right: 140px;
-  margin-bottom: 80px;
-}
-
 /* PÁGINA CONTACTO  */
-form h2 {
+main form {
+  margin-bottom: 70px;
+}
+main form h2 {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
   margin-top: 30px;
+  margin-bottom: 30px;
   text-decoration: underline;
 }
-
-form div {
+main form .forname div {
   font-size: 1.1em;
-}
-
-.forname div {
   display: flex;
   justify-content: center;
 }
-
-.forname1 {
+main form .forname div label {
   margin-bottom: 5px;
 }
-
-.forname2 {
+main form .forname div input {
   margin-bottom: 10px;
 }
-
-.formmail div {
+main form .formmail div {
   display: flex;
   justify-content: center;
 }
-
-.formail1 {
+main form .formmail div label {
   margin-bottom: 5px;
 }
-
-.formail2 {
+main form .formmail div input {
   margin-bottom: 10px;
 }
-
-.formcoment div {
+main form .formcoment div {
   display: flex;
   justify-content: center;
 }
-
-.formcoment1 {
+main form .formcoment div label {
   margin-bottom: 5px;
 }
-
-.formbutton {
+main form .formbutton {
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -331,8 +283,7 @@ form div {
   grid-template-columns: 1/2fr 1/2fr 1/2fr;
   grid-template-areas: "imga imga imga" "imga imga imga " "imga imga imga";
 }
-
-.imga {
+.grid-contenedor-arte img {
   border: 2px solid rgba(62, 104, 153, 0.2823529412);
   border-radius: 10%;
   margin-top: 5px;
@@ -345,7 +296,6 @@ form div {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
 .grid-contenedor-didacticos img {
   border: 2px solid rgba(62, 104, 153, 0.2823529412);
   border-radius: 10%;
@@ -367,7 +317,7 @@ form div {
     grid-template-columns: 1/2fr;
     grid-template-areas: "imga";
   }
-  .grid-contenedor-footer {
+  div.grid-contenedor-footer {
     display: grid;
     font-size: 0.9em;
     grid-template-columns: 1fr;
@@ -416,7 +366,7 @@ form div {
     grid-template-columns: 1/2fr 1/2fr;
     grid-template-areas: "imga imga";
   }
-  .grid-contenedor-footer {
+  div.grid-contenedor-footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;

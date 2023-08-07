@@ -1,0 +1,74 @@
+/* Header */
+
+
+header nav{
+    background-color: $celeste;
+    img{
+        @include h (80px);
+        margin-left: 10px;
+    }
+    ul.navbar-nav { 
+    margin-left: 150px;
+    }
+
+    li .nav-link{
+        color: $azul;
+        font-size: 1.2em;
+        font-family: $font;
+        @include margt-b (20px,20px);
+       }
+       
+    li .dropdown-menu{
+        font-size: 1.2em;
+    }  
+    li .dropdown-item{
+        color: $azul;
+    }
+    
+}
+
+
+
+/* Carrusel*/
+
+
+.sectioncarrusel{
+  img{
+    @include w-h (100%,550px);
+    }
+
+  button span{
+    background-color: $gris;
+    }
+}
+
+
+/* Section Categorias */ 
+
+main.grid-section-categorias {
+    @include grid-just;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+    
+    img{
+        @include w-h (450px,450px); 
+        margin-top: 20px;
+       }
+   p{
+    position: absolute;
+    margin-top: 200px;
+    margin-left:75px ;
+   font-weight: bold;
+   color:$gris;
+   font-size: 3em;
+   }
+
+  .categoria-didacticos{ 
+    p{
+       margin-left:130px ;
+     }
+   }
+}  
+
+
+

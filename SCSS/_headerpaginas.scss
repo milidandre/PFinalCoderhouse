@@ -8,40 +8,55 @@
     @include w-h (100%,100px);
     background-color: $celeste;
     align-items: center;
-    justify-content: space-around;   
-}
-
-.logo{
-    @include h (80px);
-}
-
-.contenedor-buscador{
-    @include display-justicen;
-    flex-wrap: wrap;
-    width: 60%;
-}
-
-
-img.lupa{
-    @include h (23px);
-    margin-left: 4px;
-    margin-top: 8px;  
+    justify-content: space-around;  
+    
+    .contenedor-logo{
+        img{
+            @include h (80px);
+        }
+        
     }
 
- .buscar{
-    @include w-h (55%,40px);
-    border-radius: 10px;
-    border-style: hidden ;
-    font-size: 0.9em;
-    font-family: $font;
- }
+    .contenedor-buscador{
+        @include display-justicen;
+        flex-wrap: wrap;
+        width: 60%;
+        input{
+            @include w-h (55%,40px);
+            border-radius: 10px;
+            border-style: hidden ;
+            font-size: 0.9em;
+            font-family: $font;
+         }
+         img{
+            @include h (23px);
+            margin-left: 4px;
+            margin-top: 8px;  
+            }
+    }
+    
+    .contenedor-sesion{
+        img.inicio{
+            @include h (30px);
+            margin-top: 2px;  
+        }
+        
+        img.chango{
+            @include w-h (30px,30px);
+            margin-left: 5px;
+        }
 
- .inicio{
-    @include h (30px);
-    margin-top: 2px;  
+    }
 }
 
-.chango{
-    @include w-h (30px,30px);
-    margin-left: 5px;
+//Navbar
+
+ul.nav{
+       .nav-item{
+       font-family: $font;
+       font-size: 1.2em;
+    }
+    .nav-link{
+        color: $azul;
+     }
 }

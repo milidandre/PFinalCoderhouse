@@ -1,3 +1,5 @@
+
+
 /*Media Query - responsive*/
 
 @media (min-width:300px) and (max-width:576px){
@@ -15,7 +17,7 @@
         grid-template-areas: 
         "imga"   ;
     }
-    .grid-contenedor-footer{
+    div.grid-contenedor-footer{
         display: grid;
         font-size: 0.9em;
         grid-template-columns:1fr ;
@@ -36,7 +38,8 @@
         margin-top: 20px;
     }
     .cont-ubicacion iframe{
-        @include w-h (70%,70%);
+        width: 70%;
+        height: 70%;
     }
     .cont-contacto{
         margin-top: 10%;
@@ -70,7 +73,7 @@
         grid-template-areas: 
         "imga imga" ;
     }
-    .grid-contenedor-footer{
+    div.grid-contenedor-footer{
         display: grid;
         grid-template-columns:1fr  1fr;
         grid-template-rows: 1fr 1fr; 

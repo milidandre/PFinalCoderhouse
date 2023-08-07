@@ -1,50 +1,50 @@
 /* PÁGINA CONTACTO  */
 
-form h2{
-    @include display-justicen;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-decoration: underline;
+
+main form{
+    margin-bottom: 70px;
+    h2{
+        @include display-justicen;
+        @include margt-b (30px,30px);
+        text-decoration: underline;
+    }
+
+   .forname div {
+        font-size: 1.1em;
+        @include display-justicen;  
+            label{
+                  margin-bottom: 5px;
+                }
+            input{
+                 margin-bottom: 10px;
+                }
+    }
+
+    .formmail div{
+        @include display-justicen;
+            label{
+                 margin-bottom: 5px;
+                 }
+            input{
+                margin-bottom: 10px;
+                 }
+    }
+
+    .formcoment div{
+        @include display-justicen;
+
+        label{
+            margin-bottom: 5px;
+            }
+
+    }
+
+    .formbutton{
+        @include display-justicen;
+        margin-top: 20px;
+        @include h (30px);
+    }
+
 }
 
-form div{
-    font-size: 1.1em;
-}
 
-.forname div{
-    @include display-justicen;
-}
-
-.forname1{
-    margin-bottom: 5px;
-}
-
-.forname2{
-    margin-bottom: 10px;
-}
-
-.formmail div{
-    @include display-justicen;
-}
-
-.formail1{
-    margin-bottom: 5px;
-}
-
-.formail2{
-    margin-bottom: 10px;
-}
-
-.formcoment div{
-    @include display-justicen;
-}
-
-.formcoment1{
-    margin-bottom: 5px;
-}
-
-.formbutton{
-    @include display-justicen;
-    margin-top: 20px;
-    @include h (30px);
-}

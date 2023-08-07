@@ -1,98 +1,83 @@
 /* FOOTER*/ 
 
-footer  h3{
-    font-size: 1.3em;
-    text-decoration: underline
-}
 
-.cont-contacto{
-    margin-left: 5%;
-}
-
-.mail{
-    display: flex;
-}
-
-.mail img{
-    @include marg-w-h
- }
-
-.phone{
-    display: flex;
-}
-
-.phone img{  
-    @include marg-w-h
-}
-
-.cont-newsletter{
-    margin-left: 5%;
-}
-
-.name input{
-    display: block;
-    width: 80%;
-    margin-top: 1%;
-}
-
-.susc{
-    margin-top: 2%; 
-}
-
-.susc input{
-    display: block;
-    width: 80%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
-
-.susc button{
-    width: 30%;
-    margin-left: 25%;
-}
-
-.cont-ubicacion{
-    margin-left: 5%;
-}
-
-.cont-ubicacion iframe{
-    @include w-h (300px,300px)
-}
-
-.cont-copy{
-    @include display-justicen;
-    font-size: 0.8em;
-    margin-left: 5%;
-}
-
-.copyright{
-    margin-left: 100px;  
-}
-
-.grid-contenedor-footer{
+div.grid-contenedor-footer{
     background-color: $celeste;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 400px 1fr 1fr ;
     grid-template-rows: 1fr 30px ;
     margin-top: 15px;
     grid-template-areas:
     "grid1 grid2 grid3"
     "grid4 grid4 grid4";
-}
+       
+    h3{
+        font-size: 1.3em;
+        text-decoration: underline
+        }
 
-.cont-contacto{
-    grid-area: grid1;
-}
+    div.cont-contacto{
+        margin-left: 15%;
+        margin-top: 5%;
+        grid-area: grid1;
+        .mail{
+            display: flex;
+            img{
+                @include marg-w-h
+             }
+        }
+        .phone{
+            display: flex;
+             img{  
+                @include marg-w-h
+            }
+        }
+    }
 
-.cont-newsletter{
-    grid-area: grid2;
-}
+    .cont-newsletter{
+        margin-left: 10%;
+        margin-top: 5%;
+        grid-area: grid2;
+        
+        .name input{
+            display: block;
+            width: 80%;
+            margin-top: 1%;
+        }
 
-.cont-ubiacion{
-    grid-area: grid3;
-}
+        .susc{
+            margin-top: 2%; 
+            input{
+                display: block;
+                width: 80%;
+                @include margt-b (1%,2%);
+             }
+             button{
+                width: 30%;
+                margin-left: 25%;
+            }
+        }
+    }
+    
 
-.cont-copy{
-    grid-area: grid4;
+    .cont-ubicacion{
+        margin-left: 20%;
+        margin-top: 5%;
+        grid-area: grid3;
+        iframe{
+            @include w-h (300px,300px)
+        }
+    }
+
+    .cont-copy{
+        @include display-justicen;
+        font-size: 0.8em;
+        margin-left: 5%;
+        grid-area: grid4;
+
+        p.copyright{
+            margin-left: 100px;  
+        }
+    }
 }
 
