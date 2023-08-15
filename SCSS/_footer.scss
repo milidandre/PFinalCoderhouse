@@ -1,7 +1,7 @@
 /* FOOTER*/ 
 
 
-div.grid-contenedor-footer{
+.grid-contenedor-footer{
     background-color: $celeste;
     display: grid;
     grid-template-columns: 400px 1fr 1fr ;
@@ -16,7 +16,7 @@ div.grid-contenedor-footer{
         text-decoration: underline
         }
 
-    div.cont-contacto{
+    .cont-contacto{
         margin-left: 15%;
         margin-top: 5%;
         grid-area: grid1;
