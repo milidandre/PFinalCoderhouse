@@ -83,6 +83,15 @@ main.grid-section-categorias .categoria-didacticos p {
   margin-left: 130px;
 }
 
+article {
+  text-align: center;
+}
+article .videomuñeca {
+  margin-top: 50px;
+  width: 600px;
+  height: 400px;
+}
+
 /* FOOTER*/
 .grid-contenedor-footer {
   background-color: #99cae9;
@@ -247,6 +256,13 @@ main form .formbutton input:hover {
   background-color: #99cae9;
   border-color: #99cae9;
 }
+main form section {
+  text-align: center;
+}
+main form section .esperando {
+  width: 90px;
+  height: 50px;
+}
 
 /*PAGINA ARTE Y MANUALIDADES*/
 .grid-contenedor-arte {
@@ -321,6 +337,11 @@ main form .formbutton input:hover {
   }
   .cont-newsletter {
     margin-bottom: 5%;
+  }
+  article .videomuñeca {
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
   }
 }
 @media (min-width: 577px) and (max-width: 1023px) {

@@ -55,8 +55,15 @@ main form{
             border-color: $celeste;
             
          }
-    }
+        }
 
+        section{
+            text-align: center;
+         .esperando{
+            @include w-h (90px,50px);     
+         }    
+
+}
 }
 
 
