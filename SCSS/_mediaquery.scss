@@ -11,7 +11,7 @@
         }
     }
 
-    main.grid-section-categorias {
+     main.grid-section-categorias {
         display: grid;
         grid-template-columns: 1fr;
      
@@ -29,7 +29,8 @@
             grid-template-columns: 1fr ;
         }
 
-      div.grid-contenedor-footer{
+     .grid-contenedor-footer{
+          background: linear-gradient($azulclaro,$celeste,$azulclaro);
           display: grid;
           font-size: 0.9em;
           grid-template-columns:1fr ;
@@ -40,9 +41,9 @@
            "grid3"
            "grid4";
             
-           div.cont-contacto{
+           .cont-contacto{
                 margin-left: 10%;
-                margin-top: 15%;
+                margin-top: 25%;
                 
         }
           .cont-ubicacion{
@@ -57,11 +58,13 @@
    }
      .quienessomos {
          margin-bottom: 70px;
-         margin-right: 10px;
+         margin-right: 5%;
+
     }
     
-     .grid-contenedor-footer{
-        background: linear-gradient($azulclaro,$celeste,$azulclaro);
+        .cont-newsletter{
+            margin-bottom: 5%;
+        
     }
 }
 
@@ -83,7 +86,7 @@
         grid-template-columns: 1fr 1fr ;
     }
  
-    div.grid-contenedor-footer{
+    .grid-contenedor-footer{
         grid-template-columns:1fr  1fr;
         grid-template-rows: 1fr 1fr; 
         grid-template-areas: 
@@ -102,7 +105,7 @@
         .cont-newsletter{
             margin-top: 15%;
         }
-        div.cont-contacto{
+        .cont-contacto{
             margin-top: 15%;
     }
 }

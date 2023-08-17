@@ -1,26 +1,35 @@
-header nav{
+nav{
     background-color: $celeste;
     img{
         @include h (80px);
         margin-left: 10px; 
   
     }
-    ul .navbar-nav { 
+    .navbar-nav { 
     margin-left: 150px;
     }
 
-    li .nav-link{
+    .nav-link{
         color: $azul;
         font-size: 1.2em;
         font-family: $font;
         @include margt-b (20px,20px);
        }
        
-    li .dropdown-menu{
+    .dropdown-menu{
         font-size: 1.2em;
-    }  
-    li .dropdown-item{
+    } 
+
+     .dropdown-item{
         color: $azul;
     }
     
+  .d-flex button{
+    color: $azul;
+    border-color: $azul;
+  }
+   
+  .d-flex button:hover{
+  background-color: $azul;
+}
 }

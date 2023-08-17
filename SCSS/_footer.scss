@@ -58,11 +58,17 @@
             input{
                 display: block;
                 width: 80%;
-                @include margt-b (1%,2%);
+                @include margt-b (1%,2%);   
              }
+  
              button{
                 width: 30%;
-                margin-left: 25%;
+                margin-left: 25%; 
+            }
+
+            button:hover {
+                background-color: rgb(232, 232, 232);
+               
             }
         }
     }

@@ -19,28 +19,35 @@
   padding: 0;
 }
 
-header nav {
+nav {
   background-color: #99cae9;
 }
-header nav img {
+nav img {
   height: 80px;
   margin-left: 10px;
 }
-header nav ul .navbar-nav {
+nav .navbar-nav {
   margin-left: 150px;
 }
-header nav li .nav-link {
+nav .nav-link {
   color: #3e6899;
   font-size: 1.2em;
   font-family: "roboto-general";
   margin-top: 20px;
   margin-bottom: 20px;
 }
-header nav li .dropdown-menu {
+nav .dropdown-menu {
   font-size: 1.2em;
 }
-header nav li .dropdown-item {
+nav .dropdown-item {
   color: #3e6899;
+}
+nav .d-flex button {
+  color: #3e6899;
+  border-color: #3e6899;
+}
+nav .d-flex button:hover {
+  background-color: #3e6899;
 }
 
 /* Carrusel*/
@@ -141,6 +148,9 @@ main.grid-section-categorias .categoria-didacticos p {
   width: 30%;
   margin-left: 25%;
 }
+.grid-contenedor-footer .cont-newsletter .susc button:hover {
+  background-color: rgb(232, 232, 232);
+}
 .grid-contenedor-footer .cont-ubicacion {
   margin-left: 20%;
   margin-top: 5%;
@@ -162,8 +172,9 @@ main.grid-section-categorias .categoria-didacticos p {
 }
 
 .quienessomos {
-  margin-bottom: 70px;
-  margin-right: 140px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-right: 100px;
 }
 .quienessomos h3 {
   display: flex;
@@ -229,6 +240,13 @@ main form .formbutton {
   margin-top: 20px;
   height: 30px;
 }
+main form .formbutton input {
+  border-color: #3e6899;
+}
+main form .formbutton input:hover {
+  background-color: #99cae9;
+  border-color: #99cae9;
+}
 
 /*PAGINA ARTE Y MANUALIDADES*/
 .grid-contenedor-arte {
@@ -278,30 +296,31 @@ main form .formbutton {
     display: grid;
     grid-template-columns: 1fr;
   }
-  div.grid-contenedor-footer {
+  .grid-contenedor-footer {
+    background: linear-gradient(rgba(62, 104, 153, 0.2823529412), #99cae9, rgba(62, 104, 153, 0.2823529412));
     display: grid;
     font-size: 0.9em;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "grid1" "grid2" "grid3" "grid4";
   }
-  div.grid-contenedor-footer div.cont-contacto {
+  .grid-contenedor-footer .cont-contacto {
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 25%;
   }
-  div.grid-contenedor-footer .cont-ubicacion {
+  .grid-contenedor-footer .cont-ubicacion {
     margin-left: 10%;
   }
-  div.grid-contenedor-footer .cont-copy {
+  .grid-contenedor-footer .cont-copy {
     font-size: 0.8em;
     margin-left: 10%;
   }
   .quienessomos {
     margin-bottom: 70px;
-    margin-right: 10px;
+    margin-right: 5%;
   }
-  .grid-contenedor-footer {
-    background: linear-gradient(rgba(62, 104, 153, 0.2823529412), #99cae9, rgba(62, 104, 153, 0.2823529412));
+  .cont-newsletter {
+    margin-bottom: 5%;
   }
 }
 @media (min-width: 577px) and (max-width: 1023px) {
@@ -318,23 +337,23 @@ main form .formbutton {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  div.grid-contenedor-footer {
+  .grid-contenedor-footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "grid1 grid2" "grid3 grid4";
     background: linear-gradient(rgba(62, 104, 153, 0.2823529412), #99cae9, rgba(62, 104, 153, 0.2823529412));
   }
-  div.grid-contenedor-footer .cont-copy {
+  .grid-contenedor-footer .cont-copy {
     margin-left: 1%;
     margin-top: 5%;
   }
-  div.grid-contenedor-footer .cont-copy p.copyright {
+  .grid-contenedor-footer .cont-copy p.copyright {
     margin-left: 100px;
   }
-  div.grid-contenedor-footer .cont-newsletter {
+  .grid-contenedor-footer .cont-newsletter {
     margin-top: 15%;
   }
-  div.grid-contenedor-footer div.cont-contacto {
+  .grid-contenedor-footer .cont-contacto {
     margin-top: 15%;
   }
   header nav {
