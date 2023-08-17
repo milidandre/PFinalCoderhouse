@@ -5,16 +5,33 @@
     grid-template-rows:     1/2fr 1/2fr 1/2fr;
     grid-template-columns:  1/2fr 1/2fr 1/2fr ;
     grid-template-areas: 
-    "imga imga imga"
-    "imga imga imga "
-    "imga imga imga";
-    
-    img{
-        border: $bordeimagenes;
-        border-radius: 10%;
-        margin-top: 5px;
-    }     
-}
+    "card card card"
+    "card card card"
+    "card card card";
+
+    .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-color: $celeste;
+
+        h5{
+           color: $azul;
+           text-decoration: underline;
+        }
+
+        .btn-primary{
+
+            background-color: $azul;
+            border-color: $azul;
+        }
+
+        .btn-primary:hover{
+            background-color:$celeste;
+            border-color: $celeste;
+        }
+    } 
+  }
+ 
 
 
  

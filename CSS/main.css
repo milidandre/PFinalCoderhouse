@@ -290,25 +290,50 @@ main form section .esperando {
   justify-items: center;
   grid-template-rows: 1/2fr 1/2fr 1/2fr;
   grid-template-columns: 1/2fr 1/2fr 1/2fr;
-  grid-template-areas: "imga imga imga" "imga imga imga " "imga imga imga";
+  grid-template-areas: "card card card" "card card card" "card card card";
 }
-.grid-contenedor-arte img {
-  border: 2px solid rgba(62, 104, 153, 0.2823529412);
-  border-radius: 10%;
-  margin-top: 5px;
+.grid-contenedor-arte .card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #99cae9;
+}
+.grid-contenedor-arte .card h5 {
+  color: #3e6899;
+  text-decoration: underline;
+}
+.grid-contenedor-arte .card .btn-primary {
+  background-color: #3e6899;
+  border-color: #3e6899;
+}
+.grid-contenedor-arte .card .btn-primary:hover {
+  background-color: #99cae9;
+  border-color: #99cae9;
 }
 
 /*PAGINA DIDACTICOS*/
 .grid-contenedor-didacticos {
   display: grid;
   justify-items: center;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "card card card" "card card card";
 }
-.grid-contenedor-didacticos img {
-  border: 2px solid rgba(62, 104, 153, 0.2823529412);
-  border-radius: 10%;
-  margin-top: 5px;
+.grid-contenedor-didacticos .card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #99cae9;
+}
+.grid-contenedor-didacticos h5 {
+  color: #3e6899;
+  text-decoration: underline;
+}
+.grid-contenedor-didacticos .btn-primary {
+  background-color: #3e6899;
+  border-color: #3e6899;
+}
+.grid-contenedor-didacticos .btn-primary:hover {
+  background-color: #99cae9;
+  border-color: #99cae9;
 }
 
 /*Media Query - responsive*/
@@ -326,11 +351,12 @@ main form section .esperando {
   .grid-contenedor-arte {
     display: grid;
     grid-template-columns: 1/2fr;
-    grid-template-areas: "imga";
+    grid-template-areas: "card";
   }
   .grid-contenedor-didacticos {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas: "card";
   }
   .banner img {
     width: 440px;

@@ -2,13 +2,33 @@
 
 .grid-contenedor-didacticos{
     @include grid-just;
-    grid-template-rows:   1fr 1fr 1fr;
+    grid-template-rows:   1fr 1fr ;
     grid-template-columns:   1fr 1fr 1fr ;
+    grid-template-areas: 
+    "card card card"
+    "card card card";
+    
 
-    img{
-        border: $bordeimagenes;
-        border-radius: 10%;
-        margin-top: 5px;
+    .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-color: $celeste;
     }
+
+        h5{
+           color: $azul;
+           text-decoration: underline;
+        }
+
+        .btn-primary{
+
+            background-color: $azul;
+            border-color: $azul;
+        }
+
+        .btn-primary:hover{
+            background-color:$celeste;
+            border-color: $celeste;
+        }
+    } 
    
-}

@@ -21,12 +21,14 @@
         display: grid;
         grid-template-columns: 1/2fr;
         grid-template-areas: 
-        "imga"   ;
+        "card"   ;
     }
 
         .grid-contenedor-didacticos{
             display: grid;
             grid-template-columns: 1fr ;
+            grid-template-areas: 
+            "card"   ;
         }
 
     
