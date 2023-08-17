@@ -29,6 +29,13 @@
             grid-template-columns: 1fr ;
         }
 
+    
+       .banner{
+          img{
+            @include w-h (440px,70px);
+         }
+        }
+
      .grid-contenedor-footer{
           background: linear-gradient($azulclaro,$celeste,$azulclaro);
           display: grid;
@@ -67,12 +74,10 @@
         
     }
 
-    article{
-       
+    article{ 
       .videomuñeca{
         margin-top: 50px; 
-        width: 400px;
-        height: 400px;
+        @include w-h (400px,400px);
       }
 }
 }

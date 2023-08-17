@@ -59,6 +59,17 @@ nav .d-flex button:hover {
   background-color: rgba(0, 0, 0, 0.603);
 }
 
+/*titulo*/
+.banner {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.banner img {
+  width: 1020px;
+  height: 110px;
+}
+
 /* Section Categorias */
 main.grid-section-categorias {
   display: grid;
@@ -83,8 +94,17 @@ main.grid-section-categorias .categoria-didacticos p {
   margin-left: 130px;
 }
 
+/*video*/
 article {
   text-align: center;
+}
+article h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #3e6899;
+  color: white;
 }
 article .videomuñeca {
   margin-top: 50px;
@@ -311,6 +331,10 @@ main form section .esperando {
   .grid-contenedor-didacticos {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .banner img {
+    width: 440px;
+    height: 70px;
   }
   .grid-contenedor-footer {
     background: linear-gradient(rgba(62, 104, 153, 0.2823529412), #99cae9, rgba(62, 104, 153, 0.2823529412));
