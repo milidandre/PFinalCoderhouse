@@ -18,12 +18,20 @@
         h5{
            color: $azul;
            text-decoration: underline;
+           text-align: center;
+        }
+
+        p{
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         .btn-primary{
 
             background-color: $azul;
             border-color: $azul;
+            margin-left: 30%;
         }
 
         .btn-primary:hover{
