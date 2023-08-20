@@ -362,6 +362,13 @@ main form section .esperando {
     display: grid;
     grid-template-columns: 1fr;
   }
+  main.grid-section-categorias img {
+    width: 400px;
+    height: 400px;
+  }
+  main.grid-section-categorias .categoria-didacticos p {
+    margin-left: 90px;
+  }
   .grid-contenedor-arte {
     display: grid;
     grid-template-columns: 1/2fr;
