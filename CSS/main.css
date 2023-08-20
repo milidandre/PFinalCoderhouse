@@ -71,18 +71,18 @@ nav .d-flex button:hover {
 }
 
 /* Section Categorias */
-main.grid-section-categorias {
+.grid-section-categorias {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
-main.grid-section-categorias img {
+.grid-section-categorias img {
   width: 450px;
   height: 450px;
   margin-top: 20px;
 }
-main.grid-section-categorias p {
+.grid-section-categorias p {
   position: absolute;
   margin-top: 200px;
   margin-left: 75px;
@@ -90,7 +90,7 @@ main.grid-section-categorias p {
   color: rgba(0, 0, 0, 0.603);
   font-size: 3em;
 }
-main.grid-section-categorias .categoria-didacticos p {
+.grid-section-categorias .categoria-didacticos p {
   margin-left: 130px;
 }
 
@@ -358,15 +358,15 @@ main form section .esperando {
   header nav ul.navbar-nav {
     margin-left: 10px;
   }
-  main.grid-section-categorias {
+  .grid-section-categorias {
     display: grid;
     grid-template-columns: 1fr;
   }
-  main.grid-section-categorias img {
+  .grid-section-categorias img {
     width: 400px;
     height: 400px;
   }
-  main.grid-section-categorias .categoria-didacticos p {
+  .grid-section-categorias .categoria-didacticos p {
     margin-left: 90px;
   }
   .grid-contenedor-arte {

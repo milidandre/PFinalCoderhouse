@@ -1,7 +1,6 @@
 
 .quienessomos {
-    margin-top: 80px;
-    margin-bottom: 100px;
+    @include margt-b (80px,100px);
     margin-right: 100px;
        h3{
         display: flex;
