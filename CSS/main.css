@@ -380,7 +380,7 @@ main form section .esperando {
     grid-template-areas: "card";
   }
   .banner img {
-    width: 440px;
+    width: 400px;
     height: 70px;
   }
   .grid-contenedor-footer {
