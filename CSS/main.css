@@ -405,8 +405,8 @@ main form section .esperando {
   .quienessomos {
     margin-bottom: 70px;
     margin-left: 20px;
-    margin-right: 5%;
-    text-align: justify;
+    margin-right: 20px;
+    text-align: left;
   }
   .quienessomos h3 {
     margin-right: 70px;

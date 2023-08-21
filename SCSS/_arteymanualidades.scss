@@ -28,7 +28,7 @@
 
             background-color: $azul;
             border-color: $azul;
-            margin-left: 30%;
+            @include mgle(30%);
         }
 
         .btn-primary:hover{

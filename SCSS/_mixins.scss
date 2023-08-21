@@ -12,6 +12,14 @@
     height: $h;
 }
 
+@mixin mgri($ri){
+    margin-right:$ri;
+}
+
+@mixin mgle($le){
+    margin-left:$le;
+}
+
 @mixin marg-w-h{
     margin-right: 5px;
     width: 20px;

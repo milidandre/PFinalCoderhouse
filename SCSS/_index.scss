@@ -36,15 +36,15 @@
    p{
     position: absolute;
     margin-top: 200px;
-    margin-left:75px ;
-   font-weight: bold;
-   color:$gris;
-   font-size: 3em;
+    @include mgle(75px);
+    font-weight: bold;
+    color:$gris;
+    font-size: 3em;
    }
 
   .categoria-didacticos{ 
     p{
-       margin-left:130px ;
+       @include mgle(130px);
      }
    }
 }  

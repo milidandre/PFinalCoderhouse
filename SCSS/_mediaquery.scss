@@ -7,7 +7,7 @@
     header nav{
         background: linear-gradient($azulclaro,$celeste,$azulclaro);
         ul.navbar-nav { 
-        margin-left: 10px;
+        @include mgle(10px);
         }
     }
 
@@ -21,7 +21,7 @@
 
            .categoria-didacticos{ 
             p{
-               margin-left:90px ;
+               @include mgle(90px);
              }
            }
      
@@ -61,43 +61,41 @@
            "grid4";
             
            .cont-contacto{
-                margin-left: 10%;
+                @include mgle(10%);
                 margin-top: 25%;
                 
         }
           .cont-ubicacion{
-            margin-left: 10%;   
+            @include mgle(10%);  
         }
 
         .cont-copy{
             font-size: 0.8em;
-            margin-left: 10%;
+            @include mgle(10%);
             
         }
    }
      .quienessomos {
          margin-bottom: 70px;
-         @include margl-r (20px,5%);
-         text-align: justify;
-
-         h3{
-            margin-right: 70px;
-            }
-    
-            h4{
-            margin-right: 70px;
-            }
-    
-            p{
-            margin-right: 70px;
-    
-            }
-
-    }
-    
-        .cont-newsletter{
-            margin-bottom: 5%;
+         @include margl-r (20px,20px);
+         text-align: left;
         
+         h3{
+           @include mgri (70px);
+         }
+
+         h4{
+            @include mgri (70px);
+         }
+
+         p{
+            @include mgri (70px);
+         }
+         
+    }
+
+        .cont-newsletter{
+            margin-bottom: 5%; 
     }
 
     article{ 
@@ -135,11 +133,11 @@
         background: linear-gradient($azulclaro,$celeste,$azulclaro);
             
         .cont-copy{
-            margin-left: 1%;
+            @include mgle(1%);
             margin-top: 5%;
           
             p.copyright{
-                margin-left: 100px; 
+                @include mgle(100px);
             }
         }
         .cont-newsletter{
@@ -153,7 +151,7 @@
        header nav{
         background: linear-gradient($azulclaro,$azulclaro,$celeste);
            ul.navbar-nav { 
-             margin-left: 50px;
+             @include mgle(50px);
             }
         }
   

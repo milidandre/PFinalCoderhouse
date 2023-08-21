@@ -17,7 +17,7 @@
         }
 
     .cont-contacto{
-        margin-left: 15%;
+        @include mgle(15%);
         margin-top: 5%;
         grid-area: grid1;
         .mail{
@@ -43,7 +43,7 @@
     }
 
     .cont-newsletter{
-        margin-left: 10%;
+        @include mgle(10%);
         margin-top: 5%;
         grid-area: grid2;
         
@@ -63,7 +63,7 @@
   
              button{
                 width: 30%;
-                margin-left: 25%; 
+                @include mgle(25%);
             }
 
             button:hover {
@@ -75,7 +75,7 @@
     
 
     .cont-ubicacion{
-        margin-left: 20%;
+        @include mgle(20%);
         margin-top: 5%;
         grid-area: grid3;
         iframe{
@@ -86,11 +86,11 @@
     .cont-copy{
         @include display-justicen;
         font-size: 0.8em;
-        margin-left: 5%;
+        @include mgle(5%);
         grid-area: grid4;
 
         p.copyright{
-            margin-left: 100px;  
+            @include mgle(100px);
         }
     }
 }
