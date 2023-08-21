@@ -77,8 +77,21 @@
    }
      .quienessomos {
          margin-bottom: 70px;
-         @include margl-r (40px,8px);
-         text-align: left;
+         @include margl-r (20px,5%);
+         text-align: justify;
+
+         h3{
+            margin-right: 70px;
+            }
+    
+            h4{
+            margin-right: 70px;
+            }
+    
+            p{
+            margin-right: 70px;
+    
+            }
 
     }
     
