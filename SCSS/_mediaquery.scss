@@ -24,7 +24,6 @@
                margin-left:90px ;
              }
            }
-
      
     }
     
@@ -78,7 +77,8 @@
    }
      .quienessomos {
          margin-bottom: 70px;
-         margin-right: 5%;
+         @include margl-r (40px,8px);
+         text-align: left;
 
     }
     

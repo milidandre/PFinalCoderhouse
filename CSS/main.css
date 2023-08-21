@@ -404,7 +404,9 @@ main form section .esperando {
   }
   .quienessomos {
     margin-bottom: 70px;
-    margin-right: 5%;
+    margin-left: 40px;
+    margin-right: 8px;
+    text-align: left;
   }
   .cont-newsletter {
     margin-bottom: 5%;
